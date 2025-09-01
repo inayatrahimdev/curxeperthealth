@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - CureXpert | Get in Touch</title>
+    <meta name="description"
+        content="Contact CureXpert for support, partnerships, or general inquiries. We're here to help with all your healthcare technology needs.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="CureXpert Logo.png">
+    <link rel="shortcut icon" type="image/png" href="CureXpert Logo.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="CureXpert Logo.png" alt="CureXpert" class="logo-img">
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="auth.html" class="nav-link" data-guest-only>Sign In</a></li>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="patients.html" class="nav-link">For Patients</a></li>
+                    <li><a href="providers.html" class="nav-link">For Providers</a></li>
+                    <li><a href="partners.html" class="nav-link">For Partners</a></li>
+                    <li><a href="security.html" class="nav-link">Security</a></li>
+                    <li><a href="compliance.html" class="nav-link">Compliance</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Get in Touch</h1>
+                <p class="hero-subtitle">Have questions about CureXpert? We're here to help. Reach out to our team for
+                    support, partnerships, or general inquiries.</p>
+                <div class="hero-buttons">
+                    <a href="#contact-form" class="btn btn-primary">Send Message</a>
+                    <a href="#contact-info" class="btn btn-outline">Contact Info</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="servivices.jpg" alt="Contact and support" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section id="contact-info" class="contact-info">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Information</h2>
+                <p>Multiple ways to reach our team</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>General Inquiries</p>
+                    <a href="mailto:info@curexpert.com" class="contact-link">info@curexpert.com</a>
+                    <p>Support</p>
+                    <a href="mailto:support@curexpert.com" class="contact-link">support@curexpert.com</a>
+                    <p>Partnerships</p>
+                    <a href="mailto:partnerships@curexpert.com" class="contact-link">partnerships@curexpert.com</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <p>General Inquiries</p>
+                    <a href="tel:+1-555-123-4567" class="contact-link">+1 (555) 123-4567</a>
+                    <p>Support Hotline</p>
+                    <a href="tel:+1-555-123-4568" class="contact-link">+1 (555) 123-4568</a>
+                    <p>Sales Team</p>
+                    <a href="tel:+1-555-123-4569" class="contact-link">+1 (555) 123-4569</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Office</h3>
+                    <p>Main Office</p>
+                    <address class="contact-address">
+                        123 Healthcare Innovation Drive<br>
+                        Suite 100<br>
+                        San Francisco, CA 94105<br>
+                        United States
+                    </address>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Business Hours</h3>
+                    <p>Monday - Friday</p>
+                    <span class="contact-time">9:00 AM - 6:00 PM PST</span>
+                    <p>Saturday</p>
+                    <span class="contact-time">10:00 AM - 4:00 PM PST</span>
+                    <p>Sunday</p>
+                    <span class="contact-time">Closed</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact-form" class="contact-form-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Send Us a Message</h2>
+                <p>We'll get back to you within 24 hours</p>
+            </div>
+            <div class="form-container">
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company/Organization</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="support">Technical Support</option>
+                            <option value="sales">Sales Inquiry</option>
+                            <option value="partnership">Partnership</option>
+                            <option value="investment">Investment</option>
+                            <option value="media">Media Inquiry</option>
+                            <option value="careers">Career Opportunities</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="6"
+                            placeholder="Please describe your inquiry in detail..." required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="newsletter" value="yes">
+                            <span class="checkmark"></span>
+                            Subscribe to our newsletter for updates and insights
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Visit Our Office</h2>
+                <p>Located in the heart of San Francisco's healthcare innovation district</p>
+            </div>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <i class="fas fa-map"></i>
+                    <h3>Interactive Map</h3>
+                    <p>123 Healthcare Innovation Drive<br>San Francisco, CA 94105</p>
+                    <a href="https://maps.google.com" target="_blank" class="btn btn-outline">Open in Google Maps</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How quickly do you respond to inquiries?</h3>
+                    <p>We typically respond to all inquiries within 24 hours during business days. For urgent matters,
+                        please call our support hotline.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer demos for healthcare providers?</h3>
+                    <p>Yes! We offer personalized demos for healthcare providers. You can book a demo through our
+                        providers page or contact our sales team directly.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What are your business hours?</h3>
+                    <p>Our main office is open Monday-Friday 9 AM-6 PM PST, and Saturday 10 AM-4 PM PST. Our support
+                        team is available 24/7 for urgent issues.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How can I partner with CureXpert?</h3>
+                    <p>We welcome partnerships with healthcare organizations, investors, and NGOs. Please visit our
+                        partners page or contact our partnerships team directly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="CureXpert Logo.png" alt="CureXpert" class="footer-logo-img">
+                        <span>CureXpert</span>
+                    </div>
+                    <p>Affordable primary care, faster outcomes — for everyone.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>For Patients</h3>
+                    <ul>
+                        <li><a href="patients.html">Get Started</a></li>
+                        <li><a href="patients.html#pricing">Pricing</a></li>
+                        <li><a href="patients.html#testimonials">Testimonials</a></li>
+                        <li><a href="contact.html">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>For Providers</h3>
+                    <ul>
+                        <li><a href="providers.html">Book Demo</a></li>
+                        <li><a href="providers.html#features">Features</a></li>
+                        <li><a href="providers.html#pricing">Pricing</a></li>
+                        <li><a href="contact.html">Contact Sales</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="partners.html">Partners</a></li>
+                        <li><a href="security.html">Security</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="security.html">Security</a></li>
+                        <li><a href="compliance.html">Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CureXpert. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="auth-guard.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Production authentication check - redirect to auth if not logged in
+        document.addEventListener('DOMContentLoaded', () => {
+            const userSession = localStorage.getItem('curexpert_user');
+            if (!userSession) {
+                window.location.href = 'auth.html';
+                return;
+            }
+
+            try {
+                const userData = JSON.parse(userSession);
+                const now = Date.now();
+
+                // Check if session has expired
+                if (userData.expires && now > userData.expires) {
+                    localStorage.removeItem('curexpert_user');
+                    window.location.href = 'auth.html';
+                    return;
+                }
+            } catch (error) {
+                localStorage.removeItem('curexpert_user');
+                window.location.href = 'auth.html';
+                return;
+            }
+        });
+    </script>
+</body>
+
+</html>
